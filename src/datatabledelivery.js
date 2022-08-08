@@ -20,7 +20,7 @@ export const deliveryColumns = [
         }
     },
     {
-        field:"registration" , headerName:"Registration No." ,width:160,
+        field:"chassis" , headerName:"Chassis No." ,width:160,
     },
     {
         field:"payment" , headerName:"Paid" ,width: 160,editable: true,
@@ -46,7 +46,7 @@ export const deliveryRows = [
     {
         id: 101,
         car: "Honda City",
-        registration: "BHZ-631",
+        chassis: "1514131",
         img: "https://cache1.pakwheels.com/system/car_generation_pictures/6425/original/Honda_City_Front.jpg",
         customer: "Mani",
         payment: 5500,
@@ -55,7 +55,7 @@ export const deliveryRows = [
     {
         id: 102,
         car: "Suzuki Swift",
-        registration: "ABZ-631",
+        chassis: "5554311",
         img: "https://www.india.com/wp-content/uploads/2016/12/2017-Suzuki-Swift-white-front-three-quarters-1.jpg",
         customer: "Shamikh",
         payment: 8500,
@@ -64,7 +64,7 @@ export const deliveryRows = [
     {
         id: 103,
         car: "Toyota Mark X",
-        registration: "AXZ-631",
+        chassis: "3311212",
         img: "https://cache1.pakwheels.com/system/car_generation_pictures/2876/original/Toyota_Mark_X_1st_Gen_(2004-2009).jpg",
         customer: "Arham",
         payment: 15500,
@@ -73,7 +73,7 @@ export const deliveryRows = [
     {
         id: 104,
         car: "Honda Vezel",
-        registration: "BG-1840",
+        chassis: "3322111",
         img: "https://i.pinimg.com/564x/9a/ce/d0/9aced0492e60a274e23ffd3e70cc9557.jpg",
         customer: "Abdullah Ali",
         payment: 18000,
@@ -82,7 +82,7 @@ export const deliveryRows = [
     {
         id: 105,
         car: "Suzuki Cultus",
-        registration: "BEH-252",
+        chassis: "2211333",
         img: "http://www.suzukirawal.com/media/620x485/cultus/big1.jpg",
         customer: "Ibrahim Sidd",
         payment: 9500,
@@ -91,7 +91,7 @@ export const deliveryRows = [
     {
         id: 106,
         car: "Toyota Vitz",
-        registration: "BGH-262",
+        chassis: "4567890",
         img: "https://www.solutionguider.com/wp-content/uploads/2022/02/Toyota-Vitz-F-1.3-2022-Price-in-Pakistan.jpg",
         customer: "Hammad",
         payment: 10500,
@@ -100,7 +100,7 @@ export const deliveryRows = [
     {
         id: 107,
         car: "Toyota GLI",
-        registration: "BML-420",
+        chassis: "3456789",
         img: "https://cache1.pakwheels.com/system/car_generation_pictures/5361/original/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg",
         customer: "Faraz",
         payment: 21000,
@@ -109,7 +109,7 @@ export const deliveryRows = [
     {
         id: 108,
         car: "Toyota Vitz",
-        registration: "BVE-321",
+        chassis: "2345678",
         img: "https://www.solutionguider.com/wp-content/uploads/2022/02/Toyota-Vitz-F-1.3-2022-Price-in-Pakistan.jpg",
         customer: "Baloch",
         payment: 10500,
@@ -118,7 +118,7 @@ export const deliveryRows = [
     {
         id: 109,
         car: "Suzuki Swift",
-        registration: "BHY-222",
+        chassis: "1234567",
         img: "https://www.india.com/wp-content/uploads/2016/12/2017-Suzuki-Swift-white-front-three-quarters-1.jpg",
         customer: "Daniyal",
         payment: 18500,
@@ -127,7 +127,7 @@ export const deliveryRows = [
     {
         id: 110,
         car: "Toyota GLI",
-        registration: "BHY-232",
+        chassis: "1122333",
         img: "https://cache1.pakwheels.com/system/car_generation_pictures/5361/original/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg",
         customer: "Asfar",
         payment: 21000,

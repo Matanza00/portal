@@ -2,14 +2,9 @@ import React from 'react'
 import './sidebar.scss'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PersonIcon from '@mui/icons-material/Person';
-import HandshakeRoundedIcon from '@mui/icons-material/HandshakeRounded';
 import StoreMallDirectoryRoundedIcon from '@mui/icons-material/StoreMallDirectoryRounded';
-import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-import InventoryRoundedIcon from '@mui/icons-material/InventoryRounded';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
-import QueryStatsIcon from '@mui/icons-material/QueryStats';
-import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import PsychologyIcon from '@mui/icons-material/Psychology';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import LogoutRoundedIcon from '@mui/icons-material/LogoutRounded';
@@ -42,12 +37,7 @@ function Sidebar() {
                     <span>Users</span>
                 </li>
                 </Link>
-                <Link to='/users/new' style={{textDecoration:'none'}}>          
-                <li>
-                    <HandshakeRoundedIcon className='icon'/>
-                    <span>New Form</span>
-                </li>
-                </Link>
+
                 <Link to='/products' style={{textDecoration:'none'}}> 
                 <li>
                     <StoreMallDirectoryRoundedIcon className='icon'/>
@@ -66,28 +56,13 @@ function Sidebar() {
                     <span>Delivery</span>
                 </li>
                 </Link>
-                <p className="title"> USEFUL </p>
-                <li>
-                    <QueryStatsIcon className='icon'/>
-                    <span>Stats</span>
-                </li>
-                <li>
-                    <InventoryRoundedIcon className='icon'/>
-                    <span>Inventory</span>
-                </li>
                 <p className="title"> SERVICES </p>
-                <li>
-                    <MonitorHeartIcon className='icon'/>
-                    <span>System Health</span>
-                </li>
+
                 <li>
                     <PsychologyIcon className='icon'/>
                     <span>Logs</span>
                 </li>
-                <li>
-                    <ManageAccountsIcon className='icon'/>
-                    <span>Settings</span>
-                </li>
+
                 <p className="title"> USER </p>
                 <Link to='/users/single' style={{textDecoration:'none'}}>
                 <li>

@@ -18,9 +18,6 @@ export const productColumns = [
         field:"model" , headerName:"Model" ,width:100,
     },
     {
-        field:"registration" , headerName:"Registration No." ,width:100,
-    },
-    {
         field:"chassis" , headerName:"Chassis No." ,width:170,
     },
     {

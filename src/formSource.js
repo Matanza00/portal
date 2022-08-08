@@ -37,78 +37,225 @@ export const userInputs = [
     },
     {
         id:7,
-        label:"Province",
+        label:"City",
         type:"text",
-        placeholder:"Sindh",
+        placeholder:"Karachi",
     },
-    {
-        id:8,
-        label:"Car",
-        type:"text",
-        placeholder:"Suzuki SWIFT",
-    },
-    {
-        id:9,
-        label:"Model",
-        type:"text",
-        placeholder:"2013",
-    },
-    {
-        id:10,
-        label:"Payment",
-        type:"text",
-        placeholder:"1100000",
-    },
-    {
-        id:11,
-        label:"Remaining Payment",
-        type:"text",
-        placeholder:"800000",
-    },
+
 ]
 
 
 export const productInputs = [
     {
         id:1,
-        label:"Car",
+        label:"Name",
         type:"text",
-        placeholder:"Suzuki SWIFT",
+        placeholder:"Prius",
     },
     {
         id:2,
-        label:"Model",
+        label:"Manufacturer",
         type:"text",
-        placeholder:"2013",
+        placeholder:"Toyota",
     },
     {
         id:3,
+        label:"Model",
+        type:"number",
+        placeholder:"2013",
+    },
+    {
+        id:4,
         label:"Color",
         type:"text",
         placeholder:"White",
     },
     {
-        id:4,
+        id:5,
         label:"Chasis Number",
         type:"text",
         placeholder:"1HGBH41JXMN109186",
     },
     {
-        id:5,
+        id:6,
         label:"Fuel",
         type:"text",
         placeholder:"Petrol",
     },
     {
-        id:6,
+        id:7,
         label:"Mileage",
         type:"text",
-        placeholder:"10 km/l",
+        placeholder:"000000km",
+    },
+]
+
+export const orderInputs = [
+    {
+        id:1,
+        label:"Client Name",
+        type:"text",
+        placeholder:"Shamikh",
+    },
+    {
+        id:2,
+        label:"Employee Name",
+        type:"text",
+        placeholder:"Employee",
+    },
+    {
+        id:3,
+        label:"Manufacturer",
+        type:"text",
+        placeholder:"Toyota",
+    },
+    {
+        id:4,
+        label:"Car",
+        type:"text",
+        placeholder:"Mark X",
+    },
+    {
+        id:5,
+        label:"Retail Price",
+        type:"text",
+        placeholder:"$11500",
+    },
+    {
+        id:6,
+        label:"Place of Departure",
+        type:"text",
+        placeholder:"Tokyo",
+    },
+    {
+        id:5,
+        label:"Place of Landing",
+        type:"text",
+        placeholder:"Karachi",
+    },
+]
+
+export const adminInputs = [
+    {
+        id:1,
+        label:"Name",
+        type:"text",
+        placeholder:"Prius",
+    },
+    {
+        id:2,
+        label:"Manufacturer",
+        type:"text",
+        placeholder:"Toyota",
+    },
+    {
+        id:3,
+        label:"Model",
+        type:"text",
+        placeholder:"2013",
+    },
+    {
+        id:4,
+        label:"Color",
+        type:"text",
+        placeholder:"White",
+    },
+    {
+        id:5,
+        label:"Chasis Number",
+        type:"text",
+        placeholder:"1HGBH41JXMN109186",
+    },
+    {
+        id:6,
+        label:"Fuel",
+        type:"text",
+        placeholder:"Petrol",
     },
     {
         id:7,
-        label:"Condition",
+        label:"Mileage",
         type:"text",
-        placeholder:"9/10",
+        placeholder:"000000km",
     },
+    {
+        id:8,
+        label:"Place of Departure",
+        type:"text",
+        placeholder:"Tokyo",
+    },
+    {
+        id:9,
+        label:"Place of Landing",
+        type:"text",
+        placeholder:"Karachi",
+    },
+    {
+        id:10,
+        label:"Retail Price",
+        type:"number",
+        placeholder:"$12500",
+    },
+    
+    {
+        id:11,
+        label:"Buying Price",
+        type:"number",
+        placeholder:"$10000",
+    },
+    {
+        id:12,
+        label:"Service Charges",
+        type:"number",
+        placeholder:"$700",
+    },
+    {
+        id:13,
+        label:"Shipment Charges",
+        type:"number",
+        placeholder:"$1000",
+    },
+    {
+        id:14,
+        label:"BL Amendment charges",
+        type:"number",
+        placeholder:"$100",
+    },
+    {
+        id:15,
+        label:"Storage Charges",
+        type:"number",
+        placeholder:"$300",
+    },
+    {
+        id:16,
+        label:"Picture Charges",
+        type:"number",
+        placeholder:"$50",
+    },
+    {
+        id:17,
+        label:"Negotiation Fees",
+        type:"number",
+        placeholder:"$500",
+    },
+    {
+        id:18,
+        label:"Bank Fees",
+        type:"number",
+        placeholder:"$120",
+    },
+    {
+        id:19,
+        label:"Tender Fees",
+        type:"number",
+        placeholder:"$120",
+    },
+    {
+        id:20,
+        label:"Overhead",
+        type:"number",
+        placeholder:"$150",
+    },
+
 ]

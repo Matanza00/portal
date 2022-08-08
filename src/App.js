@@ -13,6 +13,8 @@ import Delivery from './pages/Delivery';
 import Single from './pages/Single';
 import New from './pages/New';
 import {userInputs,productInputs} from './formSource'
+import Stats from './pages/Stats';
+import {userInputs,productInputs,orderInputs} from './formSource'
 import './style/dark.scss'
 import { DarkModeContext } from './context/darkModeContext';
 
@@ -41,10 +43,15 @@ function App() {
             <Route path='orders'>
               <Route index element={<Order/>}/>
               <Route path=':orderId' element={<Single/>}/>
-              <Route path='new' element={<New inputs={productInputs} title="Order PANEL"/>}/>
+              <Route path='new' element={<New inputs={orderInputs} title="Order PANEL"/>}/>
             </Route>
             <Route path='delivery'>
               <Route index element={<Delivery/>}/>
+              <Route path=':deliveryId' element={<Single/>}/>
+              <Route path='new' element={<New inputs={productInputs} title="Delivery PANEL"/>}/>
+            </Route>
+            <Route path='stats'>
+              <Route index element={<Stats/>}/>
               <Route path=':deliveryId' element={<Single/>}/>
               <Route path='new' element={<New inputs={productInputs} title="Delivery PANEL"/>}/>
             </Route>

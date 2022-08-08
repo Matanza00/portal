@@ -13,7 +13,7 @@ const Datatableorder = () => {
     renderCell:()=>{
       return(
       <div className='cellAction'>
-        <Link to='/users/test' style={{textDecoration:'none'}}> 
+        <Link to='/orders/test' style={{textDecoration:'none'}}> 
         <div className="viewButton">View</div></Link>
         <div className="deleteButton">Delete</div>
       </div>
@@ -25,7 +25,7 @@ const Datatableorder = () => {
     <div className='datatable'>
         <div className="datatableTitle">
             Order PANEL
-          <Link to='/users/new' style={{textDecoration:'none'}} className="link">  
+          <Link to='/orders/new' style={{textDecoration:'none'}} className="link">  
           Add New
           </Link>
         </div>

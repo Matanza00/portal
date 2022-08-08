@@ -1,16 +1,8 @@
 import React from 'react'
 import './sidebar.scss'
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import PersonIcon from '@mui/icons-material/Person';
-import HandshakeRoundedIcon from '@mui/icons-material/HandshakeRounded';
 import StoreMallDirectoryRoundedIcon from '@mui/icons-material/StoreMallDirectoryRounded';
-import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-import InventoryRoundedIcon from '@mui/icons-material/InventoryRounded';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
-import QueryStatsIcon from '@mui/icons-material/QueryStats';
-import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
-import PsychologyIcon from '@mui/icons-material/Psychology';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import LogoutRoundedIcon from '@mui/icons-material/LogoutRounded';
 import {Link} from "react-router-dom"

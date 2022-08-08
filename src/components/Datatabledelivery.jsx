@@ -23,9 +23,7 @@ const Datatabledelivery = () => {
     <div className='datatable'>
         <div className="datatableTitle">
           Delivery PANEL
-          <Link to='/users/new' style={{textDecoration:'none'}} className="link">  
-          Add New
-          </Link>
+
         </div>
         <DataGrid
         className='datagrid'

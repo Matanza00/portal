@@ -26,7 +26,7 @@ function New({inputs,title}) {
                   <label htmlFor='file'>
                     Image:<CloudUploadIcon className='icon'/>
                   </label>
-                  <input type="file" id="file" onChange={e=>setFile(e.target.files[0])}
+                  <input type="file" id="file" multiple onChange={e=>setFile(e.target.files[0])}
                    style={{display: "none"}}/>
                 </div>
 
